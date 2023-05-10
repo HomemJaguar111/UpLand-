@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="caixa">
+      <div class="box" id="inputPP">
+        Dados da Propriedade
+
+        <div>UP²Size</div>
+        <input type="number" id="upSize" />
+
+        <div>Rendimentos Mensais</div>
+        <input type="number" id="rMensal" />
+
+        <div>Preço de Compra</div>
+        <input type="number" id="pCompra" />
+
+        <button onclick="calcular()">Calcular</button>
+      </div>
+
+      <div class="box" id="outputPP">
+        Dados da Propriedade
+
+        <div>UP²Size</div>
+        <p id="txtUpSize">0000000</p>
+
+        <div>Rendimentos Mensais</div>
+        <p id="txtRMensal">0000000</p>
+
+        <div>Preço de Compra</div>
+        <p id="txtPCompra">0000000</p>
+
+        <div>Rendimento por Metro²</div>
+        <p id="txtRentMetro">0000000</p>
+
+        <div>Preço por Metro²</div>
+        <p id="priceMetro">0000000</p>
+
+        <div>Termômetro</div>
+        <p>0000000</p>
+
+        <button>Inserir na Lista</button>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

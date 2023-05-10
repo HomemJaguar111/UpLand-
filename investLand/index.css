@@ -1,0 +1,29 @@
+body{
+
+  margin: 0 auto;
+  background-color: rgb(224, 230, 54);
+  display: flex;
+  flex-direction: row;
+ 
+  
+}
+
+.caixa{
+  display: flex;
+  
+  
+}
+
+.box{
+  padding: 10px;
+  border: 2px black solid;
+  margin: 10px;
+  text-align: center;
+  background-color: grey;
+  height:450px ;
+  width:200px ;
+  border-radius: 8px;
+}
+input{
+  margin: 5px;
+}
